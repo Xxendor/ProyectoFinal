@@ -1,0 +1,459 @@
+﻿Log file open, 10/28/17 16:27:59
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Proyecto
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(599481510) SRandInit(599481510).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.161788
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: D:/Epic/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.28-21.27.59:469][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.28-21.27.59:469][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.28-21.27.59:481][  0]LogInit: Computer: DESKTOP-L1O4Q7K
+[2017.10.28-21.27.59:481][  0]LogInit: User: Xendor
+[2017.10.28-21.27.59:481][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.28-21.27.59:481][  0]LogInit: High frequency timer resolution =3.117192 MHz
+[2017.10.28-21.27.59:481][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
+[2017.10.28-21.27.59:481][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.28-21.27.59:481][  0]LogMemory: Process Physical Memory: 278.79 MB used, 278.79 MB peak
+[2017.10.28-21.27.59:481][  0]LogMemory: Process Virtual Memory: 282.11 MB used, 282.11 MB peak
+[2017.10.28-21.27.59:481][  0]LogMemory: Physical Memory: 6534.51 MB used,  17962.15 MB free, 24496.66 MB total
+[2017.10.28-21.27.59:481][  0]LogMemory: Virtual Memory: 676.04 MB used,  17962.15 MB free, 134217728.00 MB total
+[2017.10.28-21.27.59:594][  0]LogInit: Overriding language with editor language configuration option (en).
+[2017.10.28-21.27.59:594][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2017.10.28-21.28.00:307][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.28-21.28.00:350][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2017.10.28-21.28.00:350][  0]LogD3D11RHI:       6061/0/12248 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.10.28-21.28.00:351][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.28-21.28.00:351][  0]LogD3D11RHI:       0/0/12248 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.28-21.28.00:351][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.28-21.28.00:363][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.28-21.28.00:363][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.28-21.28.00:363][  0]LogWindows: EnumDisplayDevices:
+[2017.10.28-21.28.00:363][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2017.10.28-21.28.00:364][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.10.28-21.28.00:364][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.10.28-21.28.00:364][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.10.28-21.28.00:365][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.10.28-21.28.00:365][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2017.10.28-21.28.00:365][  0]LogD3D11RHI:   Driver Version: 388.00 (internal:23.21.13.8800, unified:388.00)
+[2017.10.28-21.28.00:365][  0]LogD3D11RHI:      Driver Date: 10-12-2017
+[2017.10.28-21.28.00:365][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.28-21.28.00:390][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.28-21.28.00:480][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.10.28-21.28.00:529][  0]LogShaderCompilers: Guid format shader working directory is 16 characters bigger than the processId version (E:/Infx/ProyectoFinal/Proyecto/Intermediate/Shaders/WorkingDirectory/70432/).
+[2017.10.28-21.28.00:529][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Xendor/AppData/Local/Temp/UnrealShaderWorkingDir/BFBCBBBC4E95DB9D81765390CF4797B5/'.
+[2017.10.28-21.28.00:529][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.28-21.28.01:497][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.28-21.28.01:534][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.28-21.28.01:571][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.28-21.28.01:610][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.28-21.28.01:648][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.28-21.28.01:686][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.28-21.28.01:723][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.28-21.28.01:760][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.28-21.28.01:790][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.28-21.28.01:827][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.28-21.28.01:864][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.28-21.28.01:903][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.28-21.28.01:942][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.28-21.28.01:980][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.28-21.28.02:021][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.28-21.28.02:099][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.28-21.28.02:099][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.28-21.28.02:127][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.28-21.28.02:199][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.28-21.28.02:221][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.28-21.28.02:257][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.28-21.28.02:292][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.28-21.28.02:328][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.28-21.28.02:364][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.28-21.28.02:364][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.28-21.28.02:674][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.28-21.28.02:775][  0]LogDerivedDataCache: Loaded boot cache 0.10s 93MB C:/Users/Xendor/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.28-21.28.02:775][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Xendor/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.28-21.28.02:775][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Infx/ProyectoFinal/Proyecto/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.28-21.28.02:775][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.28-21.28.02:775][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Infx/ProyectoFinal/Proyecto/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.28-21.28.02:775][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.28-21.28.02:792][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.28-21.28.02:804][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Xendor/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.28-21.28.02:815][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.28-21.28.02:815][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.28-21.28.02:816][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.28-21.28.02:816][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.28-21.28.03:078][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
+[2017.10.28-21.28.03:184][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.28-21.28.03:336][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.28-21.28.03:596][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.28-21.28.03:623][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.28-21.28.03:623][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.28-21.28.03:623][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.28-21.28.03:623][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.28-21.28.03:623][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.28-21.28.03:979][  0]LogNetVersion: Proyecto , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2890784869)
+[2017.10.28-21.28.04:141][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.019810 seconds
+[2017.10.28-21.28.04:147][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.28-21.28.04:147][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.10.28-21.28.04:147][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.28-21.28.04:186][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.28-21.28.06:338][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.28-21.28.06:367][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.28-21.28.06:830][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.28-21.28.07:133][  0]SourceControl: Source control is disabled
+[2017.10.28-21.28.10:305][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.28-21.28.10:478][  0]LogOcInput: OculusInput pre-init called
+[2017.10.28-21.28.10:674][  0]LogEngine: Initializing Engine...
+[2017.10.28-21.28.10:676][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.28-21.28.10:960][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.28-21.28.10:960][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.28-21.28.11:050][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.28-21.28.11:067][  0]LogInit: XAudio2 using 'Altavoces (2- Logitech G933 Gaming Wireless Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.28-21.28.11:086][  0]LogInit: FAudioDevice initialized.
+[2017.10.28-21.28.11:173][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/Xendor/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.28-21.28.11:181][  0]LogInit: Texture streaming: Enabled
+[2017.10.28-21.28.11:255][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.28-21.28.11:441][  0]LogInit: Transaction tracking system initialized
+[2017.10.28-21.28.11:657][  0]BlueprintLog: New page: Editor Load
+[2017.10.28-21.28.12:273][  0]LocalizationService: Localization service is disabled
+[2017.10.28-21.28.13:040][  0]LogConsoleResponse: Display: 
+[2017.10.28-21.28.13:198][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.28-21.28.13:198][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.28-21.28.13:198][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.28-21.28.13:925][  0]LogFileCache: Scanning file cache for directory 'E:/Infx/ProyectoFinal/Proyecto/Content/' took 0.01s
+[2017.10.28-21.28.13:925][  0]Cmd: MAP LOAD FILE="E:/Infx/ProyectoFinal/Proyecto/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.28-21.28.13:926][  0]LightingResults: New page: Lighting Build
+[2017.10.28-21.28.13:953][  0]MapCheck: New page: Map Check
+[2017.10.28-21.28.13:953][  0]LightingResults: New page: Lighting Build
+[2017.10.28-21.28.14:438][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.10.28-21.28.14:449][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.28-21.28.14:470][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.28-21.28.14:509][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 39.459ms to complete.
+[2017.10.28-21.28.14:509][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.584
+[2017.10.28-21.28.14:641][  0]LogCollectionManager: Loaded 0 collections in 0.001112 seconds
+[2017.10.28-21.28.14:706][  0]LogFileCache: Scanning file cache for directory 'E:/Infx/ProyectoFinal/Proyecto/Saved/Collections/' took 0.01s
+[2017.10.28-21.28.14:706][  0]LogFileCache: Scanning file cache for directory 'E:/Infx/ProyectoFinal/Proyecto/Content/Developers/Xendor/Collections/' took 0.01s
+[2017.10.28-21.28.14:706][  0]LogFileCache: Scanning file cache for directory 'E:/Infx/ProyectoFinal/Proyecto/Content/Collections/' took 0.01s
+[2017.10.28-21.28.14:706][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.10.28-21.28.14:716][  0]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2386 classes and 500 folders.
+[2017.10.28-21.28.14:759][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.10.28-21.28.14:798][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.10.28-21.28.14:829][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.10.28-21.28.15:097][  0]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.28-21.28.15:319][  0]SourceControl: On branch master
+[2017.10.28-21.28.15:319][  0]SourceControl: Your branch is up-to-date with 'origin/master'.
+[2017.10.28-21.28.15:319][  0]SourceControl: Changes to be committed:
+[2017.10.28-21.28.15:319][  0]SourceControl:   (use "git reset HEAD <file>..." to unstage)
+[2017.10.28-21.28.15:319][  0]SourceControl: 	new file:   Proyecto/Content/FirstPersonBP/Maps2/NewWorld.umap
+[2017.10.28-21.28.15:319][  0]SourceControl: Changes not staged for commit:
+[2017.10.28-21.28.15:319][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2017.10.28-21.28.15:319][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.10.28-21.28.15:319][  0]SourceControl: 	modified:   Proyecto/Config/DefaultEngine.ini
+[2017.10.28-21.28.15:319][  0]SourceControl: 	modified:   Proyecto/Config/DefaultGame.ini
+[2017.10.28-21.28.15:319][  0]SourceControl: 	modified:   Proyecto/Content/FirstPersonBP/Maps2/NewWorld.umap
+[2017.10.28-21.28.15:319][  0]SourceControl: 	modified:   Proyecto/Intermediate/CachedAssetRegistry.bin
+[2017.10.28-21.28.15:319][  0]SourceControl: 	modified:   Proyecto/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2017.10.28-21.28.15:319][  0]SourceControl: 	modified:   Proyecto/Intermediate/Config/CoalescedSourceConfigs/Game.ini
+[2017.10.28-21.28.15:319][  0]SourceControl: 	modified:   Proyecto/Saved/AutoScreenshot.png
+[2017.10.28-21.28.15:319][  0]SourceControl: 	modified:   Proyecto/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.10.28-21.28.15:319][  0]SourceControl: 	modified:   Proyecto/Saved/Config/Windows/Engine.ini
+[2017.10.28-21.28.15:319][  0]SourceControl: 	modified:   Proyecto/Saved/Logs/Proyecto.log
+[2017.10.28-21.28.15:319][  0]SourceControl: Untracked files:
+[2017.10.28-21.28.15:319][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.10.28-21.28.15:319][  0]SourceControl: 	Proyecto/Build/
+[2017.10.28-21.28.15:319][  0]SourceControl: 	Proyecto/Content/ForestSet/
+[2017.10.28-21.28.15:319][  0]SourceControl: 	Proyecto/Saved/Backup/
+[2017.10.28-21.28.15:319][  0]SourceControl: 	Proyecto/Saved/Config/CrashReportClient/UE4CC-Windows-07A817AF46298BCB9BFB64BF27DFFC48/
+[2017.10.28-21.28.15:319][  0]SourceControl: 	Proyecto/Saved/Config/CrashReportClient/UE4CC-Windows-374022A2401E2E54526941A1BEB664C2/
+[2017.10.28-21.28.15:319][  0]SourceControl: 	Proyecto/Saved/Config/CrashReportClient/UE4CC-Windows-418A431C481A147C4B8131A55867BFE8/
+[2017.10.28-21.28.15:320][  0]SourceControl: 	Proyecto/Saved/Config/CrashReportClient/UE4CC-Windows-7362FE6A46E453FF95DA2C9873065F27/
+[2017.10.28-21.28.15:320][  0]SourceControl: 	Proyecto/Saved/Config/CrashReportClient/UE4CC-Windows-A63F4ABD46BD19906B0087BBD06B1284/
+[2017.10.28-21.28.15:320][  0]SourceControl: 	Proyecto/Saved/Config/Windows/SourceControlSettings.ini
+[2017.10.28-21.28.15:320][  0]SourceControl: 	Proyecto/Saved/Config/WorldState/
+[2017.10.28-21.28.15:320][  0]SourceControl: 	Proyecto/Saved/Logs/Proyecto-backup-2017.10.28-15.37.10.log
+[2017.10.28-21.28.15:320][  0]SourceControl: 	Proyecto/Saved/Logs/Proyecto-backup-2017.10.28-15.37.55.log
+[2017.10.28-21.28.15:320][  0]SourceControl: 	Proyecto/Saved/Logs/Proyecto-backup-2017.10.28-15.39.10.log
+[2017.10.28-21.28.15:320][  0]SourceControl: 	Proyecto/Saved/Logs/Proyecto-backup-2017.10.28-16.22.12.log
+[2017.10.28-21.28.15:320][  0]SourceControl: 	Proyecto/Saved/Logs/Proyecto-backup-2017.10.28-16.27.58.log
+[2017.10.28-21.28.15:737][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.28-21.28.17:034][  0]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.28-21.28.17:038][  0]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.28-21.28.17:158][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Proyecto
+[2017.10.28-21.28.17:158][  0]LogTemp: CWD: D:\Epic\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.28-21.28.17:158][  0]LogTemp: Initial Dir: D:\Epic\UE_4.17
+[2017.10.28-21.28.17:158][  0]LogTemp: Env CWD: D:\Epic\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.28-21.28.17:158][  0]LogTemp: BranchPath = DESKTOP-L1O4Q7K/D/Epic/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-L1O4Q7K/D/Epic/UE_4.17/Engine/Binaries
+[2017.10.28-21.28.17:158][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Xendor\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.10.28-21.28.17:158][  0]LogRenderer: Reallocating scene render targets to support 1400x656 Format 10 NumSamples 1 (Frame:1).
+[2017.10.28-21.28.17:312][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.10.28-21.28.17:313][  0]LogLoad: (Engine Initialization) Total time: 19.12 seconds
+[2017.10.28-21.28.17:313][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.28-21.28.17:313][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.10.28-21.28.17:678][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2017.10.28-21.28.17:999][  1]LogAssetRegistry: Asset discovery search completed in 14.9426 seconds
+[2017.10.28-21.28.18:001][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.10.28-21.28.18:001][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000079 seconds (updated 0 objects)
+[2017.10.28-21.28.21:992][ 13]LogSlate: Took 0.000334 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.28-21.28.26:314][ 26]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.28-21.28.43:830][526]SourceControl: fatal: D:/Epic/UE_4.17/Engine/Content/: 'D:/Epic/UE_4.17/Engine/Content/' is outside repository
+[2017.10.28-21.28.53:350][526]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.10.28-21.28.53:688][526]SourceControl: [master d5a0a60] MAPA2
+[2017.10.28-21.28.53:688][526]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
+[2017.10.28-21.28.53:688][526]SourceControl:  create mode 100644 Proyecto/Content/FirstPersonBP/Maps2/NewWorld.umap
+[2017.10.28-21.28.53:694][526]SourceControl: Commited [master d5a0a60] MAPA2.
+[2017.10.28-21.30.40:282][640]SourceControl: fatal: D:/Epic/UE_4.17/Engine/Content/: 'D:/Epic/UE_4.17/Engine/Content/' is outside repository
+[2017.10.28-21.30.56:181][640]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.10.28-21.31.00:519][640]SourceControl: [master 5811c92] GnollForest
+[2017.10.28-21.31.00:519][640]SourceControl:  50 files changed, 4 insertions(+)
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Bush01.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Bush02.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Cloverpatch01.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Flower01.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Flower02.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Grass01.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Grass02.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Grass03.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Rock01.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Rock02.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Rock03.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Rock04.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Rock05.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Maps/Overview.umap
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Maps/Showcase.umap
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/LSM_GreenGrass.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/MASTER_FOLIAGE.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/MASTER_TREELEAVES.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_Bush01.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_Bush02.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_Bushbark01.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_CloverPatch01.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_Flower01.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_Flower02.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_Grass01.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_Grass02.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_Grass03.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_Rocks01.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_TreeBark01.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_TreeLeaves01.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Bush01.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Bush02.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Cloverpatch01.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Flower01.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Flower02.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Grass01.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Grass02.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Grass03.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Rock01.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Rock02.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Rock03.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Rock04.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Rock05.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Tree01.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Tree02.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Tree03.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Tree04.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/Landscape_sharedassets/Bedrock01_LayerInfo.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/Landscape_sharedassets/Dirt01_LayerInfo.uasset
+[2017.10.28-21.31.00:519][640]SourceControl: [master c461f7e] GnollForest
+[2017.10.28-21.31.00:519][640]SourceControl:  Date: Sat Oct 28 16:30:53 2017 -0500
+[2017.10.28-21.31.00:519][640]SourceControl:  85 files changed, 4 insertions(+)
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Bush01.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Bush02.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Cloverpatch01.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Flower01.uasset
+[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Flower02.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Grass01.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Grass02.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Grass03.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Rock01.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Rock02.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Rock03.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Rock04.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Rock05.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Maps/Overview.umap
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Maps/Showcase.umap
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/LSM_GreenGrass.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/MASTER_FOLIAGE.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/MASTER_TREELEAVES.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_Bush01.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_Bush02.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_Bushbark01.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_CloverPatch01.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_Flower01.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_Flower02.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_Grass01.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_Grass02.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_Grass03.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_Rocks01.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_TreeBark01.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_TreeLeaves01.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Bush01.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Bush02.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Cloverpatch01.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Flower01.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Flower02.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Grass01.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Grass02.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Grass03.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Rock01.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Rock02.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Rock03.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Rock04.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Rock05.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Tree01.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Tree02.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Tree03.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Tree04.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/Landscape_sharedassets/Bedrock01_LayerInfo.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/Landscape_sharedassets/Dirt01_LayerInfo.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/Landscape_sharedassets/Grass01_LayerInfo.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/Landscape_sharedassets/Grass02_LayerInfo.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/Texture2D_64_BaseColor.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/Texture2D_90_BaseColor.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_bedrocktile01.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_bedrocktile01_normals.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_bush01.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_bush01_normals.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_bush01_spec.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_bush02.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_bush02_normals.uasset
+[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_cloverpatch01.uasset
+[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_cloverpatch01_NORMALS.uasset
+[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_daisy01.uasset
+[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_daisy01_normals.uasset
+[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_dirttile01.uasset
+[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_dirttile01_normals.uasset
+[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_flower02.uasset
+[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_flower02_normals.uasset
+[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_grass01.uasset
+[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_grass01_normals.uasset
+[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_grass02.uasset
+[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_grass02_normals.uasset
+[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_grass03.uasset
+[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_grass03_normals.uasset
+[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_grasstile01.uasset
+[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_grasstile01_normals.uasset
+[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_grasstile02.uasset
+[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_rocks01.uasset
+[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_rocks01_normals.uasset
+[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_treebark01.uasset
+[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_treebark01_normals.uasset
+[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_treeleaves01.uasset
+[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_treeleaves01_SPEC.uasset
+[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_treeleaves01_normals.uasset
+[2017.10.28-21.31.00:527][640]SourceControl: Commited [master 5811c92] GnollForest.
+[2017.10.28-21.31.44:773][919]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.28-21.31.44:962][919]LogSavePackage: Save=149.40ms
+[2017.10.28-21.31.44:962][919]LogSavePackage: Moving 'E:/Infx/ProyectoFinal/Proyecto/Saved/FirstPersonExampleMap03C4F99840E41AE554F52BA11E6E839D.tmp' to 'E:/Infx/ProyectoFinal/Proyecto/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.10.28-21.31.44:963][919]LogSavePackage: Display: Finished SavePackage E:/Infx/ProyectoFinal/Proyecto/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.10.28-21.31.45:348][919]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData" FILE="E:/Infx/ProyectoFinal/Proyecto/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset" SILENT=true
+[2017.10.28-21.31.46:369][919]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.28-21.31.46:613][919]LogSavePackage: Save=1250.83ms
+[2017.10.28-21.31.46:613][919]LogSavePackage: Moving 'E:/Infx/ProyectoFinal/Proyecto/Saved/FirstPersonExampleMap_BuiltData0884865F42E1CF8F64466E93E04A861D.tmp' to 'E:/Infx/ProyectoFinal/Proyecto/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2017.10.28-21.31.46:615][919]LogSavePackage: Display: Finished SavePackage E:/Infx/ProyectoFinal/Proyecto/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset

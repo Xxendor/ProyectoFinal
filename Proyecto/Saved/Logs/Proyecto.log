@@ -1,4 +1,4 @@
-﻿Log file open, 10/28/17 16:27:59
+﻿Log file open, 10/28/17 16:45:52
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,9 +9,9 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Proyecto
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(599481510) SRandInit(599481510).
+LogInit: Display: RandInit(1437825725) SRandInit(1437825725).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.161788
+LogStats: Stats thread started at 0.164899
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -109,351 +109,340 @@ LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.17
 LogInit: Command line:  
-LogInit: Base directory: D:/Epic/UE_4.17/Engine/Binaries/Win64/
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.10.28-21.27.59:469][  0]LogInit: Selected Device Profile: [Windows]
-[2017.10.28-21.27.59:469][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.10.28-21.27.59:481][  0]LogInit: Computer: DESKTOP-L1O4Q7K
-[2017.10.28-21.27.59:481][  0]LogInit: User: Xendor
-[2017.10.28-21.27.59:481][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.10.28-21.27.59:481][  0]LogInit: High frequency timer resolution =3.117192 MHz
-[2017.10.28-21.27.59:481][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
-[2017.10.28-21.27.59:481][  0]LogMemory: Platform Memory Stats for Windows
-[2017.10.28-21.27.59:481][  0]LogMemory: Process Physical Memory: 278.79 MB used, 278.79 MB peak
-[2017.10.28-21.27.59:481][  0]LogMemory: Process Virtual Memory: 282.11 MB used, 282.11 MB peak
-[2017.10.28-21.27.59:481][  0]LogMemory: Physical Memory: 6534.51 MB used,  17962.15 MB free, 24496.66 MB total
-[2017.10.28-21.27.59:481][  0]LogMemory: Virtual Memory: 676.04 MB used,  17962.15 MB free, 134217728.00 MB total
-[2017.10.28-21.27.59:594][  0]LogInit: Overriding language with editor language configuration option (en).
-[2017.10.28-21.27.59:594][  0]LogInit: Overriding locale with editor locale configuration option (en).
-[2017.10.28-21.28.00:307][  0]LogD3D11RHI: D3D11 adapters:
-[2017.10.28-21.28.00:350][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
-[2017.10.28-21.28.00:350][  0]LogD3D11RHI:       6061/0/12248 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.10.28-21.28.00:351][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.10.28-21.28.00:351][  0]LogD3D11RHI:       0/0/12248 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.10.28-21.28.00:351][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.10.28-21.28.00:363][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.10.28-21.28.00:363][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
-[2017.10.28-21.28.00:363][  0]LogWindows: EnumDisplayDevices:
-[2017.10.28-21.28.00:363][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
-[2017.10.28-21.28.00:364][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2017.10.28-21.28.00:364][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2017.10.28-21.28.00:364][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2017.10.28-21.28.00:365][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.10.28-21.28.00:365][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
-[2017.10.28-21.28.00:365][  0]LogD3D11RHI:   Driver Version: 388.00 (internal:23.21.13.8800, unified:388.00)
-[2017.10.28-21.28.00:365][  0]LogD3D11RHI:      Driver Date: 10-12-2017
-[2017.10.28-21.28.00:365][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.10.28-21.28.00:390][  0]LogD3D11RHI: Async texture creation enabled
-[2017.10.28-21.28.00:480][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.10.28-21.28.00:529][  0]LogShaderCompilers: Guid format shader working directory is 16 characters bigger than the processId version (E:/Infx/ProyectoFinal/Proyecto/Intermediate/Shaders/WorkingDirectory/70432/).
-[2017.10.28-21.28.00:529][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Xendor/AppData/Local/Temp/UnrealShaderWorkingDir/BFBCBBBC4E95DB9D81765390CF4797B5/'.
-[2017.10.28-21.28.00:529][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.10.28-21.28.01:497][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.10.28-21.28.01:534][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.10.28-21.28.01:571][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.10.28-21.28.01:610][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.10.28-21.28.01:648][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.10.28-21.28.01:686][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.10.28-21.28.01:723][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.10.28-21.28.01:760][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.10.28-21.28.01:790][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.10.28-21.28.01:827][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.10.28-21.28.01:864][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.10.28-21.28.01:903][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.10.28-21.28.01:942][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.10.28-21.28.01:980][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.10.28-21.28.02:021][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.10.28-21.28.02:099][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.10.28-21.28.02:099][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.10.28-21.28.02:127][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.10.28-21.28.02:199][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.10.28-21.28.02:221][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.10.28-21.28.02:257][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.10.28-21.28.02:292][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.10.28-21.28.02:328][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.10.28-21.28.02:364][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.10.28-21.28.02:364][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.10.28-21.28.02:674][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.10.28-21.28.02:775][  0]LogDerivedDataCache: Loaded boot cache 0.10s 93MB C:/Users/Xendor/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.10.28-21.28.02:775][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Xendor/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.10.28-21.28.02:775][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Infx/ProyectoFinal/Proyecto/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.10.28-21.28.02:775][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.10.28-21.28.02:775][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Infx/ProyectoFinal/Proyecto/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.10.28-21.28.02:775][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.10.28-21.28.02:792][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.10.28-21.28.02:804][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Xendor/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.10.28-21.28.02:815][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.10.28-21.28.02:815][  0]LogSlate: Using Freetype 2.6.0
-[2017.10.28-21.28.02:816][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.10.28-21.28.02:816][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.10.28-21.28.03:078][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
-[2017.10.28-21.28.03:184][  0]LogInit: Selected Device Profile: [Windows]
-[2017.10.28-21.28.03:336][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.10.28-21.28.03:596][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.10.28-21.28.03:623][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.10.28-21.28.03:623][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.10.28-21.28.03:623][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.10.28-21.28.03:623][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.10.28-21.28.03:623][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.10.28-21.28.03:979][  0]LogNetVersion: Proyecto , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2890784869)
-[2017.10.28-21.28.04:141][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.019810 seconds
-[2017.10.28-21.28.04:147][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2017.10.28-21.28.04:147][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
-[2017.10.28-21.28.04:147][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.10.28-21.28.04:186][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.10.28-21.28.06:338][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.10.28-21.28.06:367][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.10.28-21.28.06:830][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.10.28-21.28.07:133][  0]SourceControl: Source control is disabled
-[2017.10.28-21.28.10:305][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.10.28-21.28.10:478][  0]LogOcInput: OculusInput pre-init called
-[2017.10.28-21.28.10:674][  0]LogEngine: Initializing Engine...
-[2017.10.28-21.28.10:676][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.10.28-21.28.10:960][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.10.28-21.28.10:960][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.10.28-21.28.11:050][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.10.28-21.28.11:067][  0]LogInit: XAudio2 using 'Altavoces (2- Logitech G933 Gaming Wireless Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.10.28-21.28.11:086][  0]LogInit: FAudioDevice initialized.
-[2017.10.28-21.28.11:173][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/Xendor/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.10.28-21.28.11:181][  0]LogInit: Texture streaming: Enabled
-[2017.10.28-21.28.11:255][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.10.28-21.28.11:441][  0]LogInit: Transaction tracking system initialized
-[2017.10.28-21.28.11:657][  0]BlueprintLog: New page: Editor Load
-[2017.10.28-21.28.12:273][  0]LocalizationService: Localization service is disabled
-[2017.10.28-21.28.13:040][  0]LogConsoleResponse: Display: 
-[2017.10.28-21.28.13:198][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.10.28-21.28.13:198][  0]LogCook: Display: Mobile HDR setting 1
-[2017.10.28-21.28.13:198][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.10.28-21.28.13:925][  0]LogFileCache: Scanning file cache for directory 'E:/Infx/ProyectoFinal/Proyecto/Content/' took 0.01s
-[2017.10.28-21.28.13:925][  0]Cmd: MAP LOAD FILE="E:/Infx/ProyectoFinal/Proyecto/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.10.28-21.28.13:926][  0]LightingResults: New page: Lighting Build
-[2017.10.28-21.28.13:953][  0]MapCheck: New page: Map Check
-[2017.10.28-21.28.13:953][  0]LightingResults: New page: Lighting Build
-[2017.10.28-21.28.14:438][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2017.10.28-21.28.14:449][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.10.28-21.28.14:470][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.10.28-21.28.14:509][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 39.459ms to complete.
-[2017.10.28-21.28.14:509][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.584
-[2017.10.28-21.28.14:641][  0]LogCollectionManager: Loaded 0 collections in 0.001112 seconds
-[2017.10.28-21.28.14:706][  0]LogFileCache: Scanning file cache for directory 'E:/Infx/ProyectoFinal/Proyecto/Saved/Collections/' took 0.01s
-[2017.10.28-21.28.14:706][  0]LogFileCache: Scanning file cache for directory 'E:/Infx/ProyectoFinal/Proyecto/Content/Developers/Xendor/Collections/' took 0.01s
-[2017.10.28-21.28.14:706][  0]LogFileCache: Scanning file cache for directory 'E:/Infx/ProyectoFinal/Proyecto/Content/Collections/' took 0.01s
-[2017.10.28-21.28.14:706][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2017.10.28-21.28.14:716][  0]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2386 classes and 500 folders.
-[2017.10.28-21.28.14:759][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.10.28-21.28.14:798][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
-[2017.10.28-21.28.14:829][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
-[2017.10.28-21.28.15:097][  0]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.10.28-21.28.15:319][  0]SourceControl: On branch master
-[2017.10.28-21.28.15:319][  0]SourceControl: Your branch is up-to-date with 'origin/master'.
-[2017.10.28-21.28.15:319][  0]SourceControl: Changes to be committed:
-[2017.10.28-21.28.15:319][  0]SourceControl:   (use "git reset HEAD <file>..." to unstage)
-[2017.10.28-21.28.15:319][  0]SourceControl: 	new file:   Proyecto/Content/FirstPersonBP/Maps2/NewWorld.umap
-[2017.10.28-21.28.15:319][  0]SourceControl: Changes not staged for commit:
-[2017.10.28-21.28.15:319][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
-[2017.10.28-21.28.15:319][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
-[2017.10.28-21.28.15:319][  0]SourceControl: 	modified:   Proyecto/Config/DefaultEngine.ini
-[2017.10.28-21.28.15:319][  0]SourceControl: 	modified:   Proyecto/Config/DefaultGame.ini
-[2017.10.28-21.28.15:319][  0]SourceControl: 	modified:   Proyecto/Content/FirstPersonBP/Maps2/NewWorld.umap
-[2017.10.28-21.28.15:319][  0]SourceControl: 	modified:   Proyecto/Intermediate/CachedAssetRegistry.bin
-[2017.10.28-21.28.15:319][  0]SourceControl: 	modified:   Proyecto/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
-[2017.10.28-21.28.15:319][  0]SourceControl: 	modified:   Proyecto/Intermediate/Config/CoalescedSourceConfigs/Game.ini
-[2017.10.28-21.28.15:319][  0]SourceControl: 	modified:   Proyecto/Saved/AutoScreenshot.png
-[2017.10.28-21.28.15:319][  0]SourceControl: 	modified:   Proyecto/Saved/Config/Windows/EditorPerProjectUserSettings.ini
-[2017.10.28-21.28.15:319][  0]SourceControl: 	modified:   Proyecto/Saved/Config/Windows/Engine.ini
-[2017.10.28-21.28.15:319][  0]SourceControl: 	modified:   Proyecto/Saved/Logs/Proyecto.log
-[2017.10.28-21.28.15:319][  0]SourceControl: Untracked files:
-[2017.10.28-21.28.15:319][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
-[2017.10.28-21.28.15:319][  0]SourceControl: 	Proyecto/Build/
-[2017.10.28-21.28.15:319][  0]SourceControl: 	Proyecto/Content/ForestSet/
-[2017.10.28-21.28.15:319][  0]SourceControl: 	Proyecto/Saved/Backup/
-[2017.10.28-21.28.15:319][  0]SourceControl: 	Proyecto/Saved/Config/CrashReportClient/UE4CC-Windows-07A817AF46298BCB9BFB64BF27DFFC48/
-[2017.10.28-21.28.15:319][  0]SourceControl: 	Proyecto/Saved/Config/CrashReportClient/UE4CC-Windows-374022A2401E2E54526941A1BEB664C2/
-[2017.10.28-21.28.15:319][  0]SourceControl: 	Proyecto/Saved/Config/CrashReportClient/UE4CC-Windows-418A431C481A147C4B8131A55867BFE8/
-[2017.10.28-21.28.15:320][  0]SourceControl: 	Proyecto/Saved/Config/CrashReportClient/UE4CC-Windows-7362FE6A46E453FF95DA2C9873065F27/
-[2017.10.28-21.28.15:320][  0]SourceControl: 	Proyecto/Saved/Config/CrashReportClient/UE4CC-Windows-A63F4ABD46BD19906B0087BBD06B1284/
-[2017.10.28-21.28.15:320][  0]SourceControl: 	Proyecto/Saved/Config/Windows/SourceControlSettings.ini
-[2017.10.28-21.28.15:320][  0]SourceControl: 	Proyecto/Saved/Config/WorldState/
-[2017.10.28-21.28.15:320][  0]SourceControl: 	Proyecto/Saved/Logs/Proyecto-backup-2017.10.28-15.37.10.log
-[2017.10.28-21.28.15:320][  0]SourceControl: 	Proyecto/Saved/Logs/Proyecto-backup-2017.10.28-15.37.55.log
-[2017.10.28-21.28.15:320][  0]SourceControl: 	Proyecto/Saved/Logs/Proyecto-backup-2017.10.28-15.39.10.log
-[2017.10.28-21.28.15:320][  0]SourceControl: 	Proyecto/Saved/Logs/Proyecto-backup-2017.10.28-16.22.12.log
-[2017.10.28-21.28.15:320][  0]SourceControl: 	Proyecto/Saved/Logs/Proyecto-backup-2017.10.28-16.27.58.log
-[2017.10.28-21.28.15:737][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.10.28-21.28.17:034][  0]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.10.28-21.28.17:038][  0]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.10.28-21.28.17:158][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Proyecto
-[2017.10.28-21.28.17:158][  0]LogTemp: CWD: D:\Epic\UE_4.17\Engine\Binaries\DotNET\IOS
-[2017.10.28-21.28.17:158][  0]LogTemp: Initial Dir: D:\Epic\UE_4.17
-[2017.10.28-21.28.17:158][  0]LogTemp: Env CWD: D:\Epic\UE_4.17\Engine\Binaries\DotNET\IOS
-[2017.10.28-21.28.17:158][  0]LogTemp: BranchPath = DESKTOP-L1O4Q7K/D/Epic/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-L1O4Q7K/D/Epic/UE_4.17/Engine/Binaries
-[2017.10.28-21.28.17:158][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Xendor\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2017.10.28-21.28.17:158][  0]LogRenderer: Reallocating scene render targets to support 1400x656 Format 10 NumSamples 1 (Frame:1).
-[2017.10.28-21.28.17:312][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2017.10.28-21.28.17:313][  0]LogLoad: (Engine Initialization) Total time: 19.12 seconds
-[2017.10.28-21.28.17:313][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.10.28-21.28.17:313][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.10.28-21.28.17:678][  0]LogContentStreaming: Texture pool size now 3000 MB
-[2017.10.28-21.28.17:999][  1]LogAssetRegistry: Asset discovery search completed in 14.9426 seconds
-[2017.10.28-21.28.18:001][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2017.10.28-21.28.18:001][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000079 seconds (updated 0 objects)
-[2017.10.28-21.28.21:992][ 13]LogSlate: Took 0.000334 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.10.28-21.28.26:314][ 26]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.10.28-21.28.43:830][526]SourceControl: fatal: D:/Epic/UE_4.17/Engine/Content/: 'D:/Epic/UE_4.17/Engine/Content/' is outside repository
-[2017.10.28-21.28.53:350][526]LogSourceControl: FGitCheckInWorker: commit successful
-[2017.10.28-21.28.53:688][526]SourceControl: [master d5a0a60] MAPA2
-[2017.10.28-21.28.53:688][526]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
-[2017.10.28-21.28.53:688][526]SourceControl:  create mode 100644 Proyecto/Content/FirstPersonBP/Maps2/NewWorld.umap
-[2017.10.28-21.28.53:694][526]SourceControl: Commited [master d5a0a60] MAPA2.
-[2017.10.28-21.30.40:282][640]SourceControl: fatal: D:/Epic/UE_4.17/Engine/Content/: 'D:/Epic/UE_4.17/Engine/Content/' is outside repository
-[2017.10.28-21.30.56:181][640]LogSourceControl: FGitCheckInWorker: commit successful
-[2017.10.28-21.31.00:519][640]SourceControl: [master 5811c92] GnollForest
-[2017.10.28-21.31.00:519][640]SourceControl:  50 files changed, 4 insertions(+)
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Bush01.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Bush02.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Cloverpatch01.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Flower01.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Flower02.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Grass01.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Grass02.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Grass03.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Rock01.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Rock02.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Rock03.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Rock04.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Rock05.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Maps/Overview.umap
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Maps/Showcase.umap
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/LSM_GreenGrass.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/MASTER_FOLIAGE.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/MASTER_TREELEAVES.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_Bush01.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_Bush02.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_Bushbark01.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_CloverPatch01.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_Flower01.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_Flower02.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_Grass01.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_Grass02.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_Grass03.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_Rocks01.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_TreeBark01.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_TreeLeaves01.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Bush01.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Bush02.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Cloverpatch01.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Flower01.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Flower02.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Grass01.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Grass02.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Grass03.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Rock01.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Rock02.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Rock03.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Rock04.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Rock05.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Tree01.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Tree02.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Tree03.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Tree04.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/Landscape_sharedassets/Bedrock01_LayerInfo.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/Landscape_sharedassets/Dirt01_LayerInfo.uasset
-[2017.10.28-21.31.00:519][640]SourceControl: [master c461f7e] GnollForest
-[2017.10.28-21.31.00:519][640]SourceControl:  Date: Sat Oct 28 16:30:53 2017 -0500
-[2017.10.28-21.31.00:519][640]SourceControl:  85 files changed, 4 insertions(+)
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Bush01.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Bush02.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Cloverpatch01.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Flower01.uasset
-[2017.10.28-21.31.00:519][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Flower02.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Grass01.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Grass02.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Grass03.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Rock01.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Rock02.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Rock03.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Rock04.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/FoliageLayers/FT_Rock05.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Maps/Overview.umap
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Maps/Showcase.umap
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/LSM_GreenGrass.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/MASTER_FOLIAGE.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/MASTER_TREELEAVES.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_Bush01.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_Bush02.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_Bushbark01.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_CloverPatch01.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_Flower01.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_Flower02.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_Grass01.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_Grass02.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_Grass03.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_Rocks01.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_TreeBark01.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Materials/M_TreeLeaves01.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Bush01.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Bush02.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Cloverpatch01.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Flower01.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Flower02.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Grass01.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Grass02.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Grass03.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Rock01.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Rock02.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Rock03.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Rock04.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Rock05.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Tree01.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Tree02.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Tree03.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Meshes/SM_Tree04.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/Landscape_sharedassets/Bedrock01_LayerInfo.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/Landscape_sharedassets/Dirt01_LayerInfo.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/Landscape_sharedassets/Grass01_LayerInfo.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/Landscape_sharedassets/Grass02_LayerInfo.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/Texture2D_64_BaseColor.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/Texture2D_90_BaseColor.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_bedrocktile01.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_bedrocktile01_normals.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_bush01.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_bush01_normals.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_bush01_spec.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_bush02.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_bush02_normals.uasset
-[2017.10.28-21.31.00:520][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_cloverpatch01.uasset
-[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_cloverpatch01_NORMALS.uasset
-[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_daisy01.uasset
-[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_daisy01_normals.uasset
-[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_dirttile01.uasset
-[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_dirttile01_normals.uasset
-[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_flower02.uasset
-[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_flower02_normals.uasset
-[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_grass01.uasset
-[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_grass01_normals.uasset
-[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_grass02.uasset
-[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_grass02_normals.uasset
-[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_grass03.uasset
-[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_grass03_normals.uasset
-[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_grasstile01.uasset
-[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_grasstile01_normals.uasset
-[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_grasstile02.uasset
-[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_rocks01.uasset
-[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_rocks01_normals.uasset
-[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_treebark01.uasset
-[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_treebark01_normals.uasset
-[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_treeleaves01.uasset
-[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_treeleaves01_SPEC.uasset
-[2017.10.28-21.31.00:521][640]SourceControl:  create mode 100644 Proyecto/Content/ForestSet/Textures/t_treeleaves01_normals.uasset
-[2017.10.28-21.31.00:527][640]SourceControl: Commited [master 5811c92] GnollForest.
-[2017.10.28-21.31.44:773][919]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.10.28-21.31.44:962][919]LogSavePackage: Save=149.40ms
-[2017.10.28-21.31.44:962][919]LogSavePackage: Moving 'E:/Infx/ProyectoFinal/Proyecto/Saved/FirstPersonExampleMap03C4F99840E41AE554F52BA11E6E839D.tmp' to 'E:/Infx/ProyectoFinal/Proyecto/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2017.10.28-21.31.44:963][919]LogSavePackage: Display: Finished SavePackage E:/Infx/ProyectoFinal/Proyecto/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
-[2017.10.28-21.31.45:348][919]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData" FILE="E:/Infx/ProyectoFinal/Proyecto/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset" SILENT=true
-[2017.10.28-21.31.46:369][919]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.10.28-21.31.46:613][919]LogSavePackage: Save=1250.83ms
-[2017.10.28-21.31.46:613][919]LogSavePackage: Moving 'E:/Infx/ProyectoFinal/Proyecto/Saved/FirstPersonExampleMap_BuiltData0884865F42E1CF8F64466E93E04A861D.tmp' to 'E:/Infx/ProyectoFinal/Proyecto/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2017.10.28-21.31.46:615][919]LogSavePackage: Display: Finished SavePackage E:/Infx/ProyectoFinal/Proyecto/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2017.10.28-21.45.52:742][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.28-21.45.52:742][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.28-21.45.52:752][  0]LogInit: Computer: DESKTOP-GLT9EE0
+[2017.10.28-21.45.52:752][  0]LogInit: User: alex
+[2017.10.28-21.45.52:752][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.28-21.45.52:752][  0]LogInit: High frequency timer resolution =3.117189 MHz
+[2017.10.28-21.45.52:752][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.10.28-21.45.52:752][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.28-21.45.52:752][  0]LogMemory: Process Physical Memory: 278.70 MB used, 278.70 MB peak
+[2017.10.28-21.45.52:752][  0]LogMemory: Process Virtual Memory: 282.07 MB used, 282.07 MB peak
+[2017.10.28-21.45.52:752][  0]LogMemory: Physical Memory: 3755.17 MB used,  4357.48 MB free, 8112.65 MB total
+[2017.10.28-21.45.52:752][  0]LogMemory: Virtual Memory: 709.38 MB used,  4357.48 MB free, 134217728.00 MB total
+[2017.10.28-21.45.52:916][  0]LogInit: Using OS detected language (es-MX).
+[2017.10.28-21.45.52:916][  0]LogInit: Using OS detected locale (es-MX).
+[2017.10.28-21.45.52:919][  0]LogTextLocalizationManager: No specific localization for 'es-MX' exists, so the 'es' localization will be used.
+[2017.10.28-21.45.53:395][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.28-21.45.53:449][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 3GB' (Feature Level 11_0)
+[2017.10.28-21.45.53:449][  0]LogD3D11RHI:       2997/0/4056 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.10.28-21.45.53:451][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.28-21.45.53:451][  0]LogD3D11RHI:       0/0/4056 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.28-21.45.53:451][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.28-21.45.53:457][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.28-21.45.53:457][  0]LogD3D11RHI:     GPU DeviceId: 0x1c02 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.28-21.45.53:457][  0]LogWindows: EnumDisplayDevices:
+[2017.10.28-21.45.53:457][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 3GB' (P:1 D:1)
+[2017.10.28-21.45.53:457][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2017.10.28-21.45.53:458][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2017.10.28-21.45.53:458][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2017.10.28-21.45.53:458][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.10.28-21.45.53:458][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 3GB
+[2017.10.28-21.45.53:458][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.10.28-21.45.53:458][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.10.28-21.45.53:458][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.28-21.45.53:477][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.28-21.45.53:487][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.10.28-21.45.53:537][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (../../../../../../ProyectoFinal/Proyecto/Intermediate/Shaders/WorkingDirectory/2660/).
+[2017.10.28-21.45.53:537][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/alex/AppData/Local/Temp/UnrealShaderWorkingDir/F0823C06467C4C79272EB19A1D2633B9/'.
+[2017.10.28-21.45.53:537][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.28-21.45.54:530][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.28-21.45.54:584][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.28-21.45.54:637][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.28-21.45.54:691][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.28-21.45.54:747][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.28-21.45.54:804][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.28-21.45.54:858][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.28-21.45.54:909][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.28-21.45.54:953][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.28-21.45.55:005][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.28-21.45.55:057][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.28-21.45.55:106][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.28-21.45.55:156][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.28-21.45.55:211][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.28-21.45.55:260][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.28-21.45.55:356][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.28-21.45.55:356][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.28-21.45.55:394][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.28-21.45.55:484][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.28-21.45.55:512][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.28-21.45.55:557][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.28-21.45.55:603][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.28-21.45.55:650][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.28-21.45.55:695][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.28-21.45.55:695][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.28-21.45.56:135][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.28-21.45.56:222][  0]LogDerivedDataCache: Loaded boot cache 0.09s 93MB C:/Users/alex/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.28-21.45.56:222][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/alex/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.28-21.45.56:222][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../ProyectoFinal/Proyecto/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.28-21.45.56:222][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.28-21.45.56:222][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../ProyectoFinal/Proyecto/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.28-21.45.56:222][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.28-21.45.56:239][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.28-21.45.56:251][  0]LogDerivedDataCache: Using Local data cache path C:/Users/alex/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.28-21.45.56:260][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.28-21.45.56:261][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.28-21.45.56:262][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.28-21.45.56:262][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.28-21.45.56:507][  0]LogAssetRegistry: FAssetRegistry took 0.0254 seconds to start up
+[2017.10.28-21.45.56:619][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.28-21.45.56:782][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.28-21.45.57:064][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.28-21.45.57:102][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.28-21.45.57:102][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.28-21.45.57:102][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.28-21.45.57:102][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.28-21.45.57:102][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.28-21.45.57:451][  0]LogNetVersion: Proyecto , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2890784869)
+[2017.10.28-21.45.57:657][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.041639 seconds
+[2017.10.28-21.45.57:663][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.28-21.45.57:663][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.10.28-21.45.57:663][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.28-21.45.57:720][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.28-21.46.00:163][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.28-21.46.00:200][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.28-21.46.00:807][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.28-21.46.01:190][  0]SourceControl: El control de código fuente está desactivado
+[2017.10.28-21.46.01:803][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.28-21.46.02:024][  0]LogOcInput: OculusInput pre-init called
+[2017.10.28-21.46.02:264][  0]LogEngine: Initializing Engine...
+[2017.10.28-21.46.02:266][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.28-21.46.02:494][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.28-21.46.02:494][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.28-21.46.02:620][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.28-21.46.02:628][  0]LogInit: XAudio2 using 'Auriculares (Dispositivo de High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.28-21.46.02:638][  0]LogInit: FAudioDevice initialized.
+[2017.10.28-21.46.02:730][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/alex/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.28-21.46.02:748][  0]LogInit: Texture streaming: Enabled
+[2017.10.28-21.46.02:856][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.28-21.46.03:062][  0]LogInit: Transaction tracking system initialized
+[2017.10.28-21.46.03:345][  0]BlueprintLog: New page: Cargar el editor
+[2017.10.28-21.46.04:195][  0]LocalizationService: Localization service is disabled
+[2017.10.28-21.46.04:997][  0]LogConsoleResponse: Display: 
+[2017.10.28-21.46.05:195][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.28-21.46.05:195][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.28-21.46.05:195][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.28-21.46.06:175][  0]LogFileCache: Scanning file cache for directory 'C:/ProyectoFinal/Proyecto/Content/' took 0.01s
+[2017.10.28-21.46.06:219][  0]Cmd: MAP LOAD FILE="../../../../../../ProyectoFinal/Proyecto/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.28-21.46.06:220][  0]LightingResults: New page: Diseñar la iluminación
+[2017.10.28-21.46.06:259][  0]MapCheck: New page: Revisión del mapa
+[2017.10.28-21.46.06:259][  0]LightingResults: New page: Diseñar la iluminación
+[2017.10.28-21.46.06:773][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.10.28-21.46.06:786][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.28-21.46.06:810][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.28-21.46.06:859][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 48.799ms to complete.
+[2017.10.28-21.46.06:859][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.640
+[2017.10.28-21.46.07:020][  0]LogCollectionManager: Loaded 0 collections in 0.001713 seconds
+[2017.10.28-21.46.07:093][  0]LogFileCache: Scanning file cache for directory 'C:/ProyectoFinal/Proyecto/Saved/Collections/' took 0.01s
+[2017.10.28-21.46.07:093][  0]LogFileCache: Scanning file cache for directory 'C:/ProyectoFinal/Proyecto/Content/Developers/alex/Collections/' took 0.01s
+[2017.10.28-21.46.07:093][  0]LogFileCache: Scanning file cache for directory 'C:/ProyectoFinal/Proyecto/Content/Collections/' took 0.01s
+[2017.10.28-21.46.07:093][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.10.28-21.46.07:101][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2386 classes and 500 folders.
+[2017.10.28-21.46.07:158][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.10.28-21.46.07:489][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.10.28-21.46.07:528][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.10.28-21.46.07:549][  0]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.28-21.46.07:550][  0]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.28-21.46.07:560][  0]LogSlate: Took 0.004594 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.28-21.46.07:686][  0]LogRenderer: Reallocating scene render targets to support 936x660 Format 10 NumSamples 1 (Frame:1).
+[2017.10.28-21.46.07:892][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.10.28-21.46.07:892][  0]LogLoad: (Engine Initialization) Total time: 16.69 seconds
+[2017.10.28-21.46.07:892][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.28-21.46.07:892][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.10.28-21.46.08:254][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.28-21.46.08:299][  0]LogSlate: Took 0.000115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.28-21.46.08:573][  1]LogAssetRegistry: Asset discovery search completed in 12.0879 seconds
+[2017.10.28-21.46.08:577][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.28-21.46.08:577][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000114 seconds (updated 0 objects)
+[2017.10.28-21.46.36:701][118]LogSlate: Took 0.000175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.28-21.46.36:911][118]LogTexture: Display: Building textures: t_grass02 (AutoDXT, 1024X1024)
+[2017.10.28-21.46.36:911][118]LogTexture: Display: Building textures: t_grass02_normals (BC5, 1024X1024)
+[2017.10.28-21.46.36:912][118]LogStaticMesh: Generando la malla estática SM_Grass02...
+[2017.10.28-21.46.36:917][118]LogStaticMesh: Built static mesh [0.01s] /Game/ForestSet/Meshes/SM_Grass02.SM_Grass02
+[2017.10.28-21.46.36:918][118]LogStaticMesh: Generando la malla estática SM_Grass03...
+[2017.10.28-21.46.36:919][118]LogStaticMesh: Built static mesh [0.00s] /Game/ForestSet/Meshes/SM_Grass03.SM_Grass03
+[2017.10.28-21.46.38:500][118]LogTexture: Display: Building textures: t_grasstile02 (AutoDXT, 2048X2048)
+[2017.10.28-21.46.38:522][118]LogTexture: Display: Building textures: t_grass01 (AutoDXT, 1024X1024)
+[2017.10.28-21.46.40:025][118]LogTexture: Display: Building textures: t_grasstile01_normals (BC5, 2048X2048)
+[2017.10.28-21.46.40:025][118]LogTexture: Display: Building textures: t_cloverpatch01 (AutoDXT, 1024X1024)
+[2017.10.28-21.46.40:037][118]LogTexture: Display: Building textures: t_grass01_normals (BC5, 1024X1024)
+[2017.10.28-21.46.40:230][118]LogMaterial: Missing cached shader map for material MASTER_FOLIAGE, compiling. 
+[2017.10.28-21.46.40:343][118]LogStaticMesh: Generando la malla estática SM_Tree01...
+[2017.10.28-21.46.40:608][118]LogStaticMesh: Built static mesh [0.27s] /Game/ForestSet/Meshes/SM_Tree01.SM_Tree01
+[2017.10.28-21.46.44:579][118]LogTexture: Display: Building textures: t_cloverpatch01_NORMALS (BC5, 1024X1024)
+[2017.10.28-21.46.44:580][118]LogTexture: Display: Building textures: t_treeleaves01_normals (BC5, 2048X2048)
+[2017.10.28-21.46.44:580][118]LogTexture: Display: Building textures: t_treeleaves01_SPEC (AutoDXT, 2048X2048)
+[2017.10.28-21.46.44:617][118]LogTexture: Display: Building textures: t_daisy01 (AutoDXT, 1024X1024)
+[2017.10.28-21.46.46:219][118]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.10.28-21.46.46:238][118]LogTexture: Display: Building textures: t_daisy01_normals (BC5, 1024X1024)
+[2017.10.28-21.46.46:439][118]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 1024X1024)
+[2017.10.28-21.46.46:440][118]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.28-21.46.46:446][118]LogStaticMesh: Generando la malla estática SM_Flower01...
+[2017.10.28-21.46.46:447][118]LogStaticMesh: Built static mesh [0.00s] /Game/ForestSet/Meshes/SM_Flower01.SM_Flower01
+[2017.10.28-21.46.49:554][118]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2017.10.28-21.46.49:554][118]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 1024X1024)
+[2017.10.28-21.46.49:556][118]LogStaticMesh: Generando la malla estática SM_Bush01...
+[2017.10.28-21.46.49:575][118]LogStaticMesh: Built static mesh [0.02s] /Game/ForestSet/Meshes/SM_Bush01.SM_Bush01
+[2017.10.28-21.46.49:578][118]LogTexture: Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 1024X1024)
+[2017.10.28-21.46.49:578][118]LogStaticMesh: Generando la malla estática SM_Grass01...
+[2017.10.28-21.46.49:579][118]LogStaticMesh: Built static mesh [0.00s] /Game/ForestSet/Meshes/SM_Grass01.SM_Grass01
+[2017.10.28-21.46.49:580][118]LogStaticMesh: Generando la malla estática SM_Cloverpatch01...
+[2017.10.28-21.46.49:580][118]LogStaticMesh: Built static mesh [0.00s] /Game/ForestSet/Meshes/SM_Cloverpatch01.SM_Cloverpatch01
+[2017.10.28-21.46.49:581][118]LogStaticMesh: Generando la malla estática SM_Bush02...
+[2017.10.28-21.46.49:581][118]LogStaticMesh: Built static mesh [0.00s] /Game/ForestSet/Meshes/SM_Bush02.SM_Bush02
+[2017.10.28-21.46.49:582][118]LogStaticMesh: Generando la malla estática SM_Flower02...
+[2017.10.28-21.46.49:582][118]LogStaticMesh: Built static mesh [0.00s] /Game/ForestSet/Meshes/SM_Flower02.SM_Flower02
+[2017.10.28-21.46.49:583][118]LogStaticMesh: Generando la malla estática SM_Rock01...
+[2017.10.28-21.46.49:586][118]LogStaticMesh: Built static mesh [0.00s] /Game/ForestSet/Meshes/SM_Rock01.SM_Rock01
+[2017.10.28-21.46.49:588][118]LogStaticMesh: Generando la malla estática SM_Rock02...
+[2017.10.28-21.46.49:591][118]LogStaticMesh: Built static mesh [0.00s] /Game/ForestSet/Meshes/SM_Rock02.SM_Rock02
+[2017.10.28-21.46.49:592][118]LogStaticMesh: Generando la malla estática SM_Rock03...
+[2017.10.28-21.46.49:595][118]LogStaticMesh: Built static mesh [0.00s] /Game/ForestSet/Meshes/SM_Rock03.SM_Rock03
+[2017.10.28-21.46.49:597][118]LogStaticMesh: Generando la malla estática SM_Rock04...
+[2017.10.28-21.46.49:601][118]LogStaticMesh: Built static mesh [0.00s] /Game/ForestSet/Meshes/SM_Rock04.SM_Rock04
+[2017.10.28-21.46.49:603][118]LogStaticMesh: Generando la malla estática SM_Rock05...
+[2017.10.28-21.46.49:605][118]LogStaticMesh: Built static mesh [0.00s] /Game/ForestSet/Meshes/SM_Rock05.SM_Rock05
+[2017.10.28-21.46.49:613][118]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 8X8)
+[2017.10.28-21.46.49:614][118]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 8X8)
+[2017.10.28-21.46.49:614][118]LogTexture: Display: Building textures: Texture2D_68 (BGRA8, 8X8)
+[2017.10.28-21.46.49:615][118]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 8X8)
+[2017.10.28-21.46.49:615][118]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 8X8)
+[2017.10.28-21.46.49:615][118]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 8X8)
+[2017.10.28-21.46.49:616][118]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 8X8)
+[2017.10.28-21.46.49:616][118]LogTexture: Display: Building textures: Texture2D_69 (BGRA8, 8X8)
+[2017.10.28-21.46.49:617][118]LogTexture: Display: Building textures: Texture2D_47 (BGRA8, 8X8)
+[2017.10.28-21.46.49:617][118]LogTexture: Display: Building textures: Texture2D_67 (BGRA8, 8X8)
+[2017.10.28-21.46.49:618][118]LogTexture: Display: Building textures: Texture2D_65 (BGRA8, 8X8)
+[2017.10.28-21.46.49:618][118]LogTexture: Display: Building textures: Texture2D_66 (BGRA8, 8X8)
+[2017.10.28-21.46.49:618][118]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 8X8)
+[2017.10.28-21.46.49:619][118]LogTexture: Display: Building textures: Texture2D_35 (BGRA8, 8X8)
+[2017.10.28-21.46.49:620][118]LogTexture: Display: Building textures: Texture2D_40 (BGRA8, 8X8)
+[2017.10.28-21.46.49:620][118]LogTexture: Display: Building textures: Texture2D_41 (BGRA8, 8X8)
+[2017.10.28-21.46.49:620][118]LogTexture: Display: Building textures: Texture2D_18 (BGRA8, 8X8)
+[2017.10.28-21.46.49:621][118]LogTexture: Display: Building textures: Texture2D_19 (BGRA8, 8X8)
+[2017.10.28-21.46.49:622][118]LogTexture: Display: Building textures: Texture2D_4 (BGRA8, 8X8)
+[2017.10.28-21.46.49:622][118]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 8X8)
+[2017.10.28-21.46.49:832][118]LogTexture: Display: Building textures: t_grasstile01 (AutoDXT, 2048X2048)
+[2017.10.28-21.46.57:778][118]LogTexture: Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 64X64)
+[2017.10.28-21.46.57:778][118]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.10.28-21.46.57:778][118]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 1024X1024)
+[2017.10.28-21.46.57:778][118]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2017.10.28-21.46.57:778][118]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 1024X1024)
+[2017.10.28-21.46.57:778][118]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (DXT1, 1024X1024)
+[2017.10.28-21.46.57:778][118]LogTexture: Display: Building textures: LQ_Lightmap_1_6 (DXT1, 64X64)
+[2017.10.28-21.46.57:778][118]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 2048X1024)
+[2017.10.28-21.46.57:778][118]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 2048X1024)
+[2017.10.28-21.46.57:778][118]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 512X256)
+[2017.10.28-21.46.57:778][118]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 64X32)
+[2017.10.28-21.46.57:778][118]LogTexture: Display: Building textures: Texture2D_90 (BGRA8, 64X64)
+[2017.10.28-21.46.57:778][118]LogTexture: Display: Building textures: Texture2D_90_BaseColor (DXT1, 8X8)
+[2017.10.28-21.46.57:778][118]LogTexture: Display: Building textures: t_treeleaves01 (AutoDXT, 2048X2048)
+[2017.10.28-21.46.57:778][118]LogTexture: Display: Building textures: t_bush01_normals (BC5, 2048X2048)
+[2017.10.28-21.46.57:778][118]LogTexture: Display: Building textures: t_bush01 (AutoDXT, 2048X2048)
+[2017.10.28-21.46.57:991][118]LogTexture: Display: Building textures: t_dirttile01 (AutoDXT, 2048X2048)
+[2017.10.28-21.47.06:463][118]LogTexture: Display: Building textures: t_bush01_spec (AutoDXT, 2048X2048)
+[2017.10.28-21.47.06:463][118]LogTexture: Display: Building textures: t_grass03_normals (BC5, 1024X1024)
+[2017.10.28-21.47.06:463][118]LogTexture: Display: Building textures: t_grass03 (AutoDXT, 1024X1024)
+[2017.10.28-21.47.06:463][118]LogTexture: Display: Building textures: t_bush02 (AutoDXT, 1024X1024)
+[2017.10.28-21.47.06:463][118]LogTexture: Display: Building textures: t_bush02_normals (BC5, 1024X1024)
+[2017.10.28-21.47.06:463][118]LogTexture: Display: Building textures: t_treebark01 (AutoDXT, 1024X1024)
+[2017.10.28-21.47.06:463][118]LogTexture: Display: Building textures: t_treebark01_normals (BC5, 1024X1024)
+[2017.10.28-21.47.06:463][118]LogTexture: Display: Building textures: t_dirttile01_normals (BC5, 2048X2048)
+[2017.10.28-21.47.06:463][118]LogTexture: Display: Building textures: t_bedrocktile01 (AutoDXT, 2048X2048)
+[2017.10.28-21.47.06:463][118]LogTexture: Display: Building textures: t_bedrocktile01_normals (BC5, 2048X2048)
+[2017.10.28-21.47.12:750][118]LogTexture: Display: Building textures: t_flower02 (AutoDXT, 2048X2048)
+[2017.10.28-21.47.12:750][118]LogMaterial: Missing cached shader map for material LSM_GreenGrass, compiling. 
+[2017.10.28-21.47.12:775][118]LogMaterial: Missing cached shader map for material LSM_GreenGrass, compiling. 
+[2017.10.28-21.47.12:836][118]LogMaterial: Missing cached shader map for material LSM_GreenGrass, compiling. 
+[2017.10.28-21.47.12:883][118]LogTexture: Display: Building textures: t_flower02_normals (BC5, 2048X2048)
+[2017.10.28-21.47.12:883][118]LogMaterial: Missing cached shader map for material LSM_GreenGrass, compiling. 
+[2017.10.28-21.47.12:949][118]LogMaterial: Missing cached shader map for material LSM_GreenGrass, compiling. 
+[2017.10.28-21.47.12:997][118]LogMaterial: Missing cached shader map for material LSM_GreenGrass, compiling. 
+[2017.10.28-21.47.13:084][118]LogStaticMesh: Generando la malla estática SM_Tree04...
+[2017.10.28-21.47.13:614][118]LogTexture: Display: Building textures: t_rocks01_normals (BC5, 1024X1024)
+[2017.10.28-21.47.13:614][118]LogTexture: Display: Building textures: t_rocks01 (AutoDXT, 1024X1024)
+[2017.10.28-21.47.13:614][118]LogStaticMesh: Built static mesh [0.53s] /Game/ForestSet/Meshes/SM_Tree04.SM_Tree04
+[2017.10.28-21.47.13:624][118]LogStaticMesh: Generando la malla estática SM_Tree02...
+[2017.10.28-21.47.13:996][118]LogStaticMesh: Built static mesh [0.37s] /Game/ForestSet/Meshes/SM_Tree02.SM_Tree02
+[2017.10.28-21.47.14:001][118]LogStaticMesh: Generando la malla estática SM_Tree03...
+[2017.10.28-21.47.14:178][118]LogStaticMesh: Built static mesh [0.18s] /Game/ForestSet/Meshes/SM_Tree03.SM_Tree03
+[2017.10.28-21.47.14:182][118]LogMaterial: Missing cached shader map for material M_TreeBark01, compiling. 
+[2017.10.28-21.47.14:216][118]LogMaterial: Missing cached shader map for material MASTER_TREELEAVES, compiling. 
+[2017.10.28-21.47.14:295][118]LogMaterial: Missing cached shader map for material M_Bushbark01, compiling. 
+[2017.10.28-21.47.14:986][118]LogMaterial: Missing cached shader map for material M_Rocks01, compiling. 
+[2017.10.28-21.47.15:028][118]LogAIModule: Creating AISystem for world Showcase
+[2017.10.28-21.47.15:079][118]Cmd: MAP LOAD FILE="../../../../../../ProyectoFinal/Proyecto/Content/ForestSet/Maps/Showcase.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.28-21.47.15:079][118]LightingResults: New page: Diseñar la iluminación
+[2017.10.28-21.47.15:080][118]LoadErrors: New page: Cargando mapa: Showcase.umap
+[2017.10.28-21.47.15:081][118]MapCheck: New page: Revisión del mapa
+[2017.10.28-21.47.15:081][118]LightingResults: New page: Diseñar la iluminación
+[2017.10.28-21.47.15:194][118]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.28-21.47.15:556][118]MapCheck: Repaired painted vertex colors in 0.0s for 16 components in /Game/ForestSet/Maps/Showcase.  Resave map to fix. 
+[2017.10.28-21.47.15:557][118]MapCheck: Warning: Spent 0.0s repairing painted vertex colors due to static mesh re-imports!  This will happen every load until the maps are resaved. 
+[2017.10.28-21.47.15:578][118]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.28-21.47.15:651][118]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 72.64ms to complete.
+[2017.10.28-21.47.15:665][118]LogFileHelpers: Loading map 'Showcase' took 0.587
+[2017.10.28-21.48.44:604][485]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.28-21.48.44:660][485]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.28-21.48.44:664][485]PIE: New page: Sesión PIE (reproducción en el editor): Showcase (28/10/2017 11:48:44)
+[2017.10.28-21.48.44:665][485]LogPlayLevel: Creating play world package: /Game/ForestSet/Maps/UEDPIE_0_Showcase
+[2017.10.28-21.48.44:682][485]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016534s)
+[2017.10.28-21.48.44:682][485]LogAIModule: Creating AISystem for world Showcase
+[2017.10.28-21.48.44:683][485]LogPlayLevel: PIE: World Init took: (0.000846s)
+[2017.10.28-21.48.44:683][485]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ForestSet/Maps/Showcase.Showcase to /Game/ForestSet/Maps/UEDPIE_0_Showcase.Showcase (0.017971s)
+[2017.10.28-21.48.44:697][485]LogInit: XAudio2 using 'Auriculares (Dispositivo de High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.28-21.48.44:704][485]LogInit: FAudioDevice initialized.
+[2017.10.28-21.48.44:755][485]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.10.28-21.48.44:768][485]LogWorld: Bringing World /Game/ForestSet/Maps/UEDPIE_0_Showcase.Showcase up for play (max tick rate 0) at 2017.10.28-16.48.44
+[2017.10.28-21.48.44:771][485]LogWorld: Bringing up level for play took: 0.006519
+[2017.10.28-21.48.44:782][485]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.28-21.48.44:829][485]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.10.28-21.48.44:831][485]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=0.000 Z=116.000] for [FirstPersonCharacter_C]
+[2017.10.28-21.48.44:831][485]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type FirstPersonCharacter_C at Rotation: Pitch 0.000000 Yaw 0.000000 Roll 0.000000
+Translation: 0.000000 0.000000 0.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2017.10.28-21.48.44:835][485]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/ForestSet/Maps/UEDPIE_0_Showcase 0.669
+[2017.10.28-21.49.04:235][695]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.10.28-21.49.10:148][210]LogMetaData: Removing '/Game/FirstPersonBP/Maps/SalaPrincipal.SalaPrincipal_C' ref from Metadata '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.PackageMetaData'
+[2017.10.28-21.49.10:148][210]LogMetaData: Removing '/Game/FirstPersonBP/Maps/SalaPrincipal.SKEL_SalaPrincipal_C' ref from Metadata '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.PackageMetaData'
+[2017.10.28-21.49.11:241][210]LogSavePackage: Save=990.55ms
+[2017.10.28-21.49.11:241][210]LogSavePackage: Moving '../../../../../../ProyectoFinal/Proyecto/Saved/SalaPrincipal0AB70D11455B1A63C443349B9B264CF3.tmp' to '../../../../../../ProyectoFinal/Proyecto/Content/FirstPersonBP/Maps/SalaPrincipal.umap'
+[2017.10.28-21.49.11:243][210]LogSavePackage: Display: Finished SavePackage ../../../../../../ProyectoFinal/Proyecto/Content/FirstPersonBP/Maps/SalaPrincipal.umap
+[2017.10.28-21.49.11:249][210]LogFileHelpers: Saving map 'SalaPrincipal' took 1.082
+[2017.10.28-21.49.17:562][407]LogSavePackage: Save=1006.63ms
+[2017.10.28-21.49.17:562][407]LogSavePackage: Moving '../../../../../../ProyectoFinal/Proyecto/Saved/SalaPrincipal492C626F403B2DD89B8A55B21C82ACDB.tmp' to '../../../../../../ProyectoFinal/Proyecto/Content/FirstPersonBP/Maps/SalaPrincipal.umap'
+[2017.10.28-21.49.17:567][407]LogSavePackage: Display: Finished SavePackage ../../../../../../ProyectoFinal/Proyecto/Content/FirstPersonBP/Maps/SalaPrincipal.umap
+[2017.10.28-21.49.17:571][407]LogFileHelpers: Saving map 'SalaPrincipal' took 1.117
+[2017.10.28-21.49.17:572][407]Cmd: MAP LOAD FILE="../../../../../../ProyectoFinal/Proyecto/Content/FirstPersonBP/Maps/SalaPrincipal.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.28-21.49.17:573][407]LightingResults: New page: Diseñar la iluminación
+[2017.10.28-21.49.17:573][407]LoadErrors: New page: Cargando mapa: SalaPrincipal.umap
+[2017.10.28-21.49.17:574][407]MapCheck: New page: Revisión del mapa
+[2017.10.28-21.49.17:574][407]LightingResults: New page: Diseñar la iluminación
+[2017.10.28-21.49.17:604][407]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.28-21.49.17:640][407]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.28-21.49.17:701][407]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 61.862ms to complete.
+[2017.10.28-21.49.17:702][407]LogFileHelpers: Loading map 'SalaPrincipal' took 0.131
+[2017.10.28-21.49.52:749][479]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.28-21.49.52:771][479]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/SalaPrincipal.SalaPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/SalaPrincipal.SalaPrincipal:PersistentLevel.SalaPrincipal' with GeneratedClass '/Game/FirstPersonBP/Maps/SalaPrincipal.SalaPrincipal_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/SalaPrincipal.SalaPrincipal:PersistentLevel.SalaPrincipal'
+[2017.10.28-21.49.52:771][479]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.28-21.49.52:771][479]PIE: New page: Sesión PIE (reproducción en el editor): SalaPrincipal (28/10/2017 11:49:52)
+[2017.10.28-21.49.52:771][479]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_SalaPrincipal
+[2017.10.28-21.49.52:797][479]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026220s)
+[2017.10.28-21.49.52:798][479]LogAIModule: Creating AISystem for world SalaPrincipal
+[2017.10.28-21.49.52:798][479]LogPlayLevel: PIE: World Init took: (0.001212s)
+[2017.10.28-21.49.52:799][479]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/SalaPrincipal.SalaPrincipal to /Game/FirstPersonBP/Maps/UEDPIE_0_SalaPrincipal.SalaPrincipal (0.027809s)
+[2017.10.28-21.49.52:815][479]LogInit: XAudio2 using 'Auriculares (Dispositivo de High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.28-21.49.52:824][479]LogInit: FAudioDevice initialized.
+[2017.10.28-21.49.52:856][479]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.10.28-21.49.52:859][479]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_SalaPrincipal.SalaPrincipal up for play (max tick rate 0) at 2017.10.28-16.49.52
+[2017.10.28-21.49.52:861][479]LogWorld: Bringing up level for play took: 0.004754
+[2017.10.28-21.49.52:866][479]PIE: Tiempo de inicio de la reproducción en el editor para  /Game/FirstPersonBP/Maps/UEDPIE_0_SalaPrincipal 0.7
+[2017.10.28-21.49.52:866][479]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/SalaPrincipal.SalaPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/SalaPrincipal.SalaPrincipal:PersistentLevel.SalaPrincipal' with GeneratedClass '/Game/FirstPersonBP/Maps/SalaPrincipal.SalaPrincipal_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/SalaPrincipal.SalaPrincipal:PersistentLevel.SalaPrincipal'
+[2017.10.28-21.50.55:662][919]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/SalaPrincipal.SalaPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/SalaPrincipal.SalaPrincipal:PersistentLevel.SalaPrincipal' with GeneratedClass '/Game/FirstPersonBP/Maps/SalaPrincipal.SalaPrincipal_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/SalaPrincipal.SalaPrincipal:PersistentLevel.SalaPrincipal'
+[2017.10.28-21.50.55:694][919]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/SalaPrincipal.SalaPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/SalaPrincipal.SalaPrincipal:PersistentLevel.SalaPrincipal' with GeneratedClass '/Game/FirstPersonBP/Maps/SalaPrincipal.SalaPrincipal_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/SalaPrincipal.SalaPrincipal:PersistentLevel.SalaPrincipal'
